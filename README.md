@@ -8,12 +8,13 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Nest](https://github.com/nestjs/nest) framework connection to DB postgre.
 
 ## Installation
 
 ```bash
-$ npm install
+# First for all, install typeorm pgsql on npm
+$ npm i --save @nestjs/typeorm typeorm pgsql
 ```
 
 ## Running the app
